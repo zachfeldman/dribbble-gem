@@ -1,0 +1,146 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.dribbble.com/shots/popular
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.dribbble.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 04 Aug 2014 02:22:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a0954bd32f70393b1404f41e8d98096e
+      X-Runtime:
+      - '0.124567'
+      X-Rack-Cache:
+      - miss
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: UTF-8
+      string: "{\"page\":\"1\",\"per_page\":15,\"pages\":50,\"total\":750,\"shots\":[{\"id\":1668188,\"title\":\"Design
+        is Everywhere\",\"description\":\"\\u003Cp\\u003E I know I'm late to the party,
+        but here is my entry to the contest! The idea is simple: design is in every
+        thing that surrounds us. It can be more obvious in tech stuff, but an electronic
+        switcher is the result of a design decision as well. I couldn't come up with
+        a cool \\\"definition\\\", so here is my idea: \\\"design is...everywhere\\\"
+        \\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":290,\"comments_count\":21,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668188-Design-is-Everywhere\",\"short_url\":\"http://drbl.in/lSWC\",\"views_count\":3787,\"rebound_source_id\":1650934,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/3375/screenshots/1668188/animation-final.gif\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/3375/screenshots/1668188/animation-final_teaser.gif\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/3375/screenshots/1668188/animation-final_1x.gif\",\"player\":{\"id\":3375,\"name\":\"Sebastiano
+        Guerriero\",\"location\":\"London, UK\",\"followers_count\":3579,\"draftees_count\":7,\"likes_count\":6715,\"likes_received_count\":11775,\"comments_count\":213,\"comments_received_count\":790,\"rebounds_count\":7,\"rebounds_received_count\":8,\"url\":\"http://dribbble.com/Sebastiano_Guerriero\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/3375/avatars/normal/avatar_1.png?1352070082\",\"username\":\"Sebastiano_Guerriero\",\"twitter_screen_name\":\"guerriero_se\",\"website_url\":\"http://codyhouse.co/\",\"drafted_by_player_id\":596,\"shots_count\":122,\"following_count\":824,\"created_at\":\"2010/07/09
+        07:51:23 -0400\"},\"created_at\":\"2014/08/02 14:56:02 -0400\"},{\"id\":1668261,\"title\":\"Barn
+        Door \",\"description\":\"\\u003Cp\\u003EI finally got my own font finished!
+        Here's a link to where to buy it : https://sellfy.com/p/Xr7D/ \\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":138,\"comments_count\":19,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668261-Barn-Door\",\"short_url\":\"http://drbl.in/lSXX\",\"views_count\":1379,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/221182/screenshots/1668261/unstitled-1.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/221182/screenshots/1668261/unstitled-1_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/221182/screenshots/1668261/unstitled-1_1x.png\",\"player\":{\"id\":221182,\"name\":\"Jorgen
+        Grotdal\",\"location\":\"Trondheim, Norway\",\"followers_count\":4225,\"draftees_count\":0,\"likes_count\":575,\"likes_received_count\":20482,\"comments_count\":270,\"comments_received_count\":1277,\"rebounds_count\":0,\"rebounds_received_count\":3,\"url\":\"http://dribbble.com/JorgenGrotdal\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/221182/avatars/normal/666.png?1392655504\",\"username\":\"JorgenGrotdal\",\"twitter_screen_name\":\"JorgenGrotdal\",\"website_url\":\"http://jorgengrotdal.com/\",\"drafted_by_player_id\":169979,\"shots_count\":220,\"following_count\":243,\"created_at\":\"2012/10/13
+        20:04:12 -0400\"},\"created_at\":\"2014/08/02 16:51:53 -0400\"},{\"id\":1668905,\"title\":\"Element
+        Deer - Made to Endure II\",\"description\":\"\\u003Cp\\u003EAnother design
+        for Element\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":78,\"comments_count\":6,\"rebounds_count\":1,\"url\":\"http://dribbble.com/shots/1668905-Element-Deer-Made-to-Endure-II\",\"short_url\":\"http://drbl.in/lTkr\",\"views_count\":612,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/61834/screenshots/1668905/element_deer.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/61834/screenshots/1668905/element_deer_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/61834/screenshots/1668905/element_deer_1x.png\",\"player\":{\"id\":61834,\"name\":\"Brian
+        Steely\",\"location\":\"Atlanta, GA\",\"followers_count\":2312,\"draftees_count\":10,\"likes_count\":7614,\"likes_received_count\":12037,\"comments_count\":1621,\"comments_received_count\":1219,\"rebounds_count\":21,\"rebounds_received_count\":20,\"url\":\"http://dribbble.com/BSteely\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/61834/avatars/normal/266472_2123376085642_3788254_o.jpg?1393971022\",\"username\":\"BSteely\",\"twitter_screen_name\":\"briansteely\",\"website_url\":\"http://briansteely.com\",\"drafted_by_player_id\":39,\"shots_count\":160,\"following_count\":580,\"created_at\":\"2011/09/14
+        20:39:15 -0400\"},\"created_at\":\"2014/08/03 15:29:26 -0400\"},{\"id\":1668004,\"title\":\"Weather
+        App\",\"description\":null,\"height\":600,\"width\":800,\"likes_count\":97,\"comments_count\":6,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668004-Weather-App\",\"short_url\":\"http://drbl.in/lSTa\",\"views_count\":2037,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/168777/screenshots/1668004/weather.jpg\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/168777/screenshots/1668004/weather_teaser.jpg\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/168777/screenshots/1668004/weather_1x.jpg\",\"player\":{\"id\":168777,\"name\":\"UltraLinx\",\"location\":\"London\",\"followers_count\":2983,\"draftees_count\":3,\"likes_count\":377,\"likes_received_count\":7863,\"comments_count\":157,\"comments_received_count\":450,\"rebounds_count\":2,\"rebounds_received_count\":3,\"url\":\"http://dribbble.com/UltraLinx\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/168777/avatars/normal/1533835_10151932200858333_222529893_n.jpg?1392733677\",\"username\":\"UltraLinx\",\"twitter_screen_name\":\"UltraLinx\",\"website_url\":\"http://oliur.com\",\"drafted_by_player_id\":103891,\"shots_count\":51,\"following_count\":253,\"created_at\":\"2012/06/27
+        20:19:20 -0400\"},\"created_at\":\"2014/08/02 09:33:22 -0400\"},{\"id\":1668658,\"title\":\"Paternity\",\"description\":\"\\u003Cp\\u003ELet's
+        not forget about the daddy's.\\u003C/p\\u003E\\n\\n\\u003Cp\\u003EBtw, you
+        can get a glimpse of all the illustrations \\u003Ca href=\\\"https://www.behance.net/gallery/18765777/IAPI-illustrations/?a=sharetxt\\\"
+        rel=\\\"nofollow\\\"\\u003Ehere\\u003C/a\\u003E\\u003C/p\\u003E\\n\\n\\u003Cp\\u003ECheers!\\u003C/p\\u003E\\n\\n\\u003Cp\\u003E\\u003Ca
+        href=\\\"http://instagram.com/motionmarkus/?a=sharetxt\\\" rel=\\\"nofollow\\\"\\u003Einstagram\\u003C/a\\u003E
+        // \\u003Ca href=\\\"https://twitter.com/MotionMarkus/?a=sharetxt\\\" rel=\\\"nofollow\\\"\\u003Etwitter\\u003C/a\\u003E\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":75,\"comments_count\":7,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668658-Paternity\",\"short_url\":\"http://drbl.in/lTfE\",\"views_count\":538,\"rebound_source_id\":1663262,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/285475/screenshots/1668658/paternity.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/285475/screenshots/1668658/paternity_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/285475/screenshots/1668658/paternity_1x.png\",\"player\":{\"id\":285475,\"name\":\"Markus
+        Magnusson\",\"location\":\"Sweden\",\"followers_count\":5355,\"draftees_count\":2,\"likes_count\":1545,\"likes_received_count\":17695,\"comments_count\":243,\"comments_received_count\":1218,\"rebounds_count\":4,\"rebounds_received_count\":5,\"url\":\"http://dribbble.com/MarkusM\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/285475/avatars/normal/profile-pic-vimeo.png?1361371417\",\"username\":\"MarkusM\",\"twitter_screen_name\":\"MotionMarkus\",\"website_url\":\"http://cargocollective.com/markus\",\"drafted_by_player_id\":202768,\"shots_count\":65,\"following_count\":278,\"created_at\":\"2013/02/20
+        04:20:10 -0500\"},\"created_at\":\"2014/08/03 09:06:56 -0400\"},{\"id\":1667925,\"title\":\"VK
+        concept\",\"description\":\"\\u003Cp\\u003EMeet new design concept for one
+        of the largest social network vk.com\\n\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":117,\"comments_count\":15,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1667925-VK-concept\",\"short_url\":\"http://drbl.in/lSRz\",\"views_count\":2429,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/101820/screenshots/1667925/cover.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/101820/screenshots/1667925/cover_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/101820/screenshots/1667925/cover_1x.png\",\"player\":{\"id\":101820,\"name\":\"Pavel\",\"location\":\"Ukraine,
+        Odessa\",\"followers_count\":302,\"draftees_count\":0,\"likes_count\":368,\"likes_received_count\":825,\"comments_count\":31,\"comments_received_count\":68,\"rebounds_count\":1,\"rebounds_received_count\":1,\"url\":\"http://dribbble.com/Grigoriev\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/101820/avatars/normal/i_am_2.png?1398013911\",\"username\":\"Grigoriev\",\"twitter_screen_name\":\"robinziff\",\"website_url\":null,\"drafted_by_player_id\":19333,\"shots_count\":20,\"following_count\":88,\"created_at\":\"2012/02/12
+        01:24:01 -0500\"},\"created_at\":\"2014/08/02 06:53:36 -0400\"},{\"id\":1668747,\"title\":\"Cephalopod
+        Print\",\"description\":\"\\u003Cp\\u003EHey there lovely people, \\u003C/p\\u003E\\n\\n\\u003Cp\\u003EI
+        just wanted to share this second version of the Cephalopod with you, which
+        is slightly different from the first iteration: Here I was working with only
+        two stroke weights instead of three, I added some more details here and there.
+        But more important, I worked out a kind of more elaborated background and
+        color scheme. I wanted to break out of the deep sea- box and came up with
+        a more reddish version, reflecting fire, space, and some other things. \\u003C/p\\u003E\\n\\n\\u003Cp\\u003EAnd
+        because I was into it, I also made a print, which is available on \\u003Ca
+        href=\\\"http://society6.com/patchworklabs/cephalopod-pda_print#1=46\\\" rel=\\\"nofollow\\\"\\u003ESociety6\\u003C/a\\u003E
+        - which seems to be the best option for most of me peeps in the US. So to
+        get an idea what you can expect I included some detail shots here (@2x, maybe?).\\u003C/p\\u003E\\n\\n\\u003Cp\\u003EThank
+        you very much for your attention and your time. Have an awesome weekend.\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":74,\"comments_count\":3,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668747-Cephalopod-Print\",\"short_url\":\"http://drbl.in/lThp\",\"views_count\":603,\"rebound_source_id\":1665308,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/254554/screenshots/1668747/20140802-kopff_sser-3praese.gif\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/254554/screenshots/1668747/20140802-kopff_sser-3praese_teaser.gif\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/254554/screenshots/1668747/20140802-kopff_sser-3praese_1x.gif\",\"player\":{\"id\":254554,\"name\":\"Axel
+        Herrmann\",\"location\":\"Berlin\",\"followers_count\":4925,\"draftees_count\":7,\"likes_count\":6706,\"likes_received_count\":19009,\"comments_count\":4195,\"comments_received_count\":2071,\"rebounds_count\":0,\"rebounds_received_count\":5,\"url\":\"http://dribbble.com/AxelHerrmann\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/254554/avatars/normal/20131025_Avatra_Axel.png?1397714427\",\"username\":\"AxelHerrmann\",\"twitter_screen_name\":\"axel_herrmann\",\"website_url\":\"http://www.pwl.berlin\",\"drafted_by_player_id\":270317,\"shots_count\":101,\"following_count\":102,\"created_at\":\"2012/12/21
+        19:15:45 -0500\"},\"created_at\":\"2014/08/03 11:17:38 -0400\"},{\"id\":1668041,\"title\":\"Machine
+        Learning\",\"description\":\"\\u003Cp\\u003EMade some new product videos for
+        \\u003Ca href=\\\"http://crowdstrike.com/\\\" rel=\\\"nofollow\\\"\\u003ECrowdStrike\\u003C/a\\u003E
+        over the past couple of weeks (with more to come).  Here are the first three,
+        elements from each were spread across all three videos to give them a more
+        unified feel.\\u003C/p\\u003E\\n\\n\\u003Cp\\u003EHere are the videos\\n\\u003Cbr
+        /\\u003E\\u003Ca href=\\\"https://vimeo.com/102245508\\\" rel=\\\"nofollow\\\"\\u003ECrowdstrike
+        - Intelligence\\u003C/a\\u003E\\n\\u003Cbr /\\u003E\\u003Ca href=\\\"https://vimeo.com/102245510\\\"
+        rel=\\\"nofollow\\\"\\u003ECrowdstrike - Platform\\u003C/a\\u003E\\n\\u003Cbr
+        /\\u003E\\u003Ca href=\\\"https://vimeo.com/102245511\\\" rel=\\\"nofollow\\\"\\u003ECrowdstrike
+        - Response\\u003C/a\\u003E\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":67,\"comments_count\":2,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668041-Machine-Learning\",\"short_url\":\"http://drbl.in/lSTL\",\"views_count\":924,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/43762/screenshots/1668041/machine-learning.gif\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/43762/screenshots/1668041/machine-learning_teaser.gif\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/43762/screenshots/1668041/machine-learning_1x.gif\",\"player\":{\"id\":43762,\"name\":\"Seth
+        Eckert\",\"location\":\"Kentucky\",\"followers_count\":5567,\"draftees_count\":6,\"likes_count\":2772,\"likes_received_count\":25279,\"comments_count\":451,\"comments_received_count\":1549,\"rebounds_count\":27,\"rebounds_received_count\":7,\"url\":\"http://dribbble.com/seth_eckert\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/43762/avatars/normal/profile.jpg?1371478636\",\"username\":\"seth_eckert\",\"twitter_screen_name\":\"seth_eckert\",\"website_url\":\"http://www.setheckert.com/\",\"drafted_by_player_id\":2701,\"shots_count\":151,\"following_count\":354,\"created_at\":\"2011/07/05
+        09:45:57 -0400\"},\"created_at\":\"2014/08/02 10:53:27 -0400\"},{\"id\":1667918,\"title\":\"Veggie
+        Weekend Refreshed Icon\",\"description\":\"\\u003Cp\\u003EWith the latest
+        version of Veggie Weekend we ended up doing a simplification of the icon.
+        Focusing on a single object gives a much more iconic look to this app. What
+        started out as an icon originally occupying and using the borders of the icon
+        shape, now simply focuses on the object. Not doing a force perspective on
+        the icon makes it fit in and play nice with the rest of the iOS icons. \\u003C/p\\u003E\\n\\n\\u003Cp\\u003ELearn
+        more and download here:\\n\\u003Cbr /\\u003Ehttps://itunes.apple.com/us/app/veggie-weekend/id625161325?mt=8\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":64,\"comments_count\":6,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1667918-Veggie-Weekend-Refreshed-Icon\",\"short_url\":\"http://drbl.in/lSRs\",\"views_count\":994,\"rebound_source_id\":1197125,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/4531/screenshots/1667918/veggie-weekend-refreshed-icon.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/4531/screenshots/1667918/veggie-weekend-refreshed-icon_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/4531/screenshots/1667918/veggie-weekend-refreshed-icon_1x.png\",\"player\":{\"id\":4531,\"name\":\"Max
+        Rudberg\",\"location\":\"Stockholm, Sweden\",\"followers_count\":3554,\"draftees_count\":11,\"likes_count\":185,\"likes_received_count\":13882,\"comments_count\":315,\"comments_received_count\":1311,\"rebounds_count\":33,\"rebounds_received_count\":33,\"url\":\"http://dribbble.com/maxrudberg\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/4531/avatars/normal/max-portrait.jpg?1383050771\",\"username\":\"maxrudberg\",\"twitter_screen_name\":\"maxrudberg\",\"website_url\":\"http://www.maxrudberg.com\",\"drafted_by_player_id\":2389,\"shots_count\":186,\"following_count\":96,\"created_at\":\"2010/09/25
+        20:56:54 -0400\"},\"created_at\":\"2014/08/02 06:27:14 -0400\"},{\"id\":1667957,\"title\":\"Fashion
+        Look Book // Branding Deck\",\"description\":\"\\u003Cp\\u003EBringing together
+        all the brand elements for this Fashion Look Book. \\n\\u003Cbr /\\u003ESoft
+        \ tonal colours, lines, icons and mono imagery.\\u003C/p\\u003E\\n\\n\\u003Cp\\u003EFollow
+        the project development here:\\n\\u003Cbr /\\u003Ehttps://www.behance.net/wip/703123\\n\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":68,\"comments_count\":4,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1667957-Fashion-Look-Book-Branding-Deck\",\"short_url\":\"http://drbl.in/lSSf\",\"views_count\":757,\"rebound_source_id\":1663275,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/43342/screenshots/1667957/sjq_dribbble_2014_lookbook.gif\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/43342/screenshots/1667957/sjq_dribbble_2014_lookbook_teaser.gif\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/43342/screenshots/1667957/sjq_dribbble_2014_lookbook_1x.gif\",\"player\":{\"id\":43342,\"name\":\"Jonathan
+        Quintin\",\"location\":\"Bristol, UK\",\"followers_count\":8766,\"draftees_count\":10,\"likes_count\":5622,\"likes_received_count\":53769,\"comments_count\":1763,\"comments_received_count\":2910,\"rebounds_count\":428,\"rebounds_received_count\":459,\"url\":\"http://dribbble.com/STUDIOJQ\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/43342/avatars/normal/5f72d44f02dc28666c306c112241a424.jpg?1406112226\",\"username\":\"STUDIOJQ\",\"twitter_screen_name\":\"STUDIOJQ\",\"website_url\":\"http://www.behance.net/JonathanQuintin\",\"drafted_by_player_id\":5675,\"shots_count\":702,\"following_count\":1797,\"created_at\":\"2011/07/02
+        07:00:51 -0400\"},\"created_at\":\"2014/08/02 08:15:19 -0400\"},{\"id\":1668150,\"title\":\"Hope
+        Will Rise\",\"description\":\"\\u003Cp\\u003ETee Design For \\\"The Rock Music\\\".
+        Check attachment for details.\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":58,\"comments_count\":5,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668150-Hope-Will-Rise\",\"short_url\":\"http://drbl.in/lSVQ\",\"views_count\":383,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/45589/screenshots/1668150/hope_will_rise_dribbble.jpg\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/45589/screenshots/1668150/hope_will_rise_dribbble_teaser.jpg\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/45589/screenshots/1668150/hope_will_rise_dribbble_1x.jpg\",\"player\":{\"id\":45589,\"name\":\"Nicholas
+        D'Amico\",\"location\":\"Salt Lake City, UT\",\"followers_count\":2240,\"draftees_count\":8,\"likes_count\":3693,\"likes_received_count\":6036,\"comments_count\":826,\"comments_received_count\":557,\"rebounds_count\":0,\"rebounds_received_count\":-1,\"url\":\"http://dribbble.com/DesignbyDiamond\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/45589/avatars/normal/dribbble_avatar.jpg?1391976056\",\"username\":\"DesignbyDiamond\",\"twitter_screen_name\":\"DesignbyDiamond\",\"website_url\":\"http://www.designbydiamond.com\",\"drafted_by_player_id\":28681,\"shots_count\":82,\"following_count\":240,\"created_at\":\"2011/07/13
+        13:34:50 -0400\"},\"created_at\":\"2014/08/02 14:05:06 -0400\"},{\"id\":1668514,\"title\":\"User
+        visits\",\"description\":\"\\u003Cp\\u003EWorking on a few illustrations for
+        the upcoming user visits at the office.\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":63,\"comments_count\":2,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668514-User-visits\",\"short_url\":\"http://drbl.in/lTcQ\",\"views_count\":555,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/63407/screenshots/1668514/userday_dribbble.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/63407/screenshots/1668514/userday_dribbble_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/63407/screenshots/1668514/userday_dribbble_1x.png\",\"player\":{\"id\":63407,\"name\":\"ranganath
+        krishnamani\",\"location\":\"Bangalore, India\",\"followers_count\":1553,\"draftees_count\":0,\"likes_count\":85,\"likes_received_count\":6279,\"comments_count\":52,\"comments_received_count\":451,\"rebounds_count\":3,\"rebounds_received_count\":4,\"url\":\"http://dribbble.com/rkrishnamani\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/63407/avatars/original/avatar.png?1322676526\",\"username\":\"rkrishnamani\",\"twitter_screen_name\":null,\"website_url\":\"https://www.behance.net/ranganath\",\"drafted_by_player_id\":3342,\"shots_count\":122,\"following_count\":267,\"created_at\":\"2011/09/22
+        00:11:21 -0400\"},\"created_at\":\"2014/08/03 03:08:08 -0400\"},{\"id\":1668146,\"title\":\"Grilly
+        The Cheese \\u0026 Friends\",\"description\":\"\\u003Cp\\u003ESome friends
+        for Grilly The Cheese.\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":58,\"comments_count\":7,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668146-Grilly-The-Cheese-Friends\",\"short_url\":\"http://drbl.in/lSVM\",\"views_count\":557,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/53712/screenshots/1668146/gtcnf.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/53712/screenshots/1668146/gtcnf_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/53712/screenshots/1668146/gtcnf_1x.png\",\"player\":{\"id\":53712,\"name\":\"Jake
+        Fleming\",\"location\":\"United States\",\"followers_count\":826,\"draftees_count\":6,\"likes_count\":1504,\"likes_received_count\":3711,\"comments_count\":819,\"comments_received_count\":427,\"rebounds_count\":82,\"rebounds_received_count\":76,\"url\":\"http://dribbble.com/jakefleming\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/53712/avatars/normal/iTunesArtwork.png?1379083466\",\"username\":\"jakefleming\",\"twitter_screen_name\":\"jakeflem\",\"website_url\":\"http://www.jakefleming.net\",\"drafted_by_player_id\":1444,\"shots_count\":194,\"following_count\":142,\"created_at\":\"2011/08/15
+        18:46:01 -0400\"},\"created_at\":\"2014/08/02 14:01:41 -0400\"},{\"id\":1668632,\"title\":\"Small
+        Universe\",\"description\":\"\\u003Cp\\u003EThis is a part of smart watch
+        UI design for GEAK. Design ideas is from the stars, constellations and other
+        cosmic scene.\\n\\u003Cbr /\\u003EPlease check @2x for better view.\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":67,\"comments_count\":15,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668632-Small-Universe\",\"short_url\":\"http://drbl.in/lTfe\",\"views_count\":783,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/5214/screenshots/1668632/part01_02.gif\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/5214/screenshots/1668632/part01_02_teaser.gif\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/5214/screenshots/1668632/part01_02_1x.gif\",\"player\":{\"id\":5214,\"name\":\"Kingyo\",\"location\":\"Chengdu,
+        China\",\"followers_count\":3532,\"draftees_count\":6,\"likes_count\":1503,\"likes_received_count\":11583,\"comments_count\":546,\"comments_received_count\":715,\"rebounds_count\":19,\"rebounds_received_count\":20,\"url\":\"http://dribbble.com/Kingyo\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/5214/avatars/original/logo100.png?1305130705\",\"username\":\"Kingyo\",\"twitter_screen_name\":null,\"website_url\":\"http://www.iKingyo.com\",\"drafted_by_player_id\":784,\"shots_count\":56,\"following_count\":193,\"created_at\":\"2010/10/22
+        08:01:11 -0400\"},\"created_at\":\"2014/08/03 08:06:05 -0400\"},{\"id\":1668201,\"title\":\"Wall
+        Street Journal\",\"description\":\"\\u003Cp\\u003ENew one for WSJ about learning
+        foreign languages with images rather than word-for-word translations. \\u003Ca
+        href=\\\"https://31.media.tumblr.com/884be405ac2f00092947cd8822a6ceca/tumblr_n9ozrmxvLe1r9hg05o1_500.jpg\\\"
+        rel=\\\"nofollow\\\"\\u003EBig\\u003C/a\\u003E\\u003C/p\\u003E\\n\\n\\u003Cp\\u003EAD:
+        Keith Webb\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":51,\"comments_count\":0,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668201-Wall-Street-Journal\",\"short_url\":\"http://drbl.in/lSWP\",\"views_count\":428,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/24812/screenshots/1668201/wsj-photo.jpg\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/24812/screenshots/1668201/wsj-photo_teaser.jpg\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/24812/screenshots/1668201/wsj-photo_1x.jpg\",\"player\":{\"id\":24812,\"name\":\"Matt
+        Chase\",\"location\":\"Washington, DC\",\"followers_count\":4384,\"draftees_count\":7,\"likes_count\":5805,\"likes_received_count\":18444,\"comments_count\":576,\"comments_received_count\":1403,\"rebounds_count\":29,\"rebounds_received_count\":31,\"url\":\"http://dribbble.com/doble_entendre\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/24812/avatars/normal/1_2.jpg?1359232983\",\"username\":\"doble_entendre\",\"twitter_screen_name\":\"doble_entendre\",\"website_url\":\"http://chasematt.com\",\"drafted_by_player_id\":1329,\"shots_count\":185,\"following_count\":637,\"created_at\":\"2011/03/22
+        17:54:20 -0400\"},\"created_at\":\"2014/08/02 15:16:24 -0400\"}]}"
+    http_version: 
+  recorded_at: Mon, 04 Aug 2014 02:22:07 GMT
+recorded_with: VCR 2.5.0

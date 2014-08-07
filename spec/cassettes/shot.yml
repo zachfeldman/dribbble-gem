@@ -1,0 +1,185 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.dribbble.com/shots/debuts
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.dribbble.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 04 Aug 2014 02:30:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 019a4adbbae814b701948b31e8689497
+      X-Runtime:
+      - '0.109249'
+      X-Rack-Cache:
+      - miss
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: UTF-8
+      string: "{\"page\":\"1\",\"per_page\":15,\"pages\":50,\"total\":750,\"shots\":[{\"id\":1669143,\"title\":\"Logo
+        for hykoo - Text + video = \\u003C3\",\"description\":\"\\u003Cp\\u003EThe
+        logo, tag line and one of the color palette for the branding of 'hykoo' -
+        Hykoo is a social network that brings this time-tested storytelling technique
+        of hykoo into the digital age by combining lines of type over a short video.\\n\\u003Cbr
+        /\\u003EDriven by beautiful design, hykoos are a new form of creative expression
+        and a giant leap forward in the evolution of social video.\\u003C/p\\u003E\\n\\n\\u003Cp\\u003Ehttps://download.hykoo.co\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":3,\"comments_count\":0,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1669143-Logo-for-hykoo-Text-video-3\",\"short_url\":\"http://drbl.in/lToV\",\"views_count\":27,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/120567/screenshots/1669143/logo.gif\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/120567/screenshots/1669143/logo_teaser.gif\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/120567/screenshots/1669143/logo_1x.gif\",\"player\":{\"id\":120567,\"name\":\"assaf
+        dagan\",\"location\":\"New York\",\"followers_count\":4,\"draftees_count\":0,\"likes_count\":23,\"likes_received_count\":3,\"comments_count\":0,\"comments_received_count\":0,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/assafdagan\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/120567/avatars/normal/assa.jpg?1393025788\",\"username\":\"assafdagan\",\"twitter_screen_name\":\"assafdagan\",\"website_url\":\"http://assafdagan.com\",\"drafted_by_player_id\":36950,\"shots_count\":1,\"following_count\":39,\"created_at\":\"2012/03/23
+        13:02:47 -0400\"},\"created_at\":\"2014/08/03 21:28:18 -0400\"},{\"id\":1669110,\"title\":\"Zodiac
+        Buttons\",\"description\":\"\\u003Cp\\u003EMaking buttons for fundraising
+        is fun fun fun :) \\u003C/p\\u003E\",\"height\":300,\"width\":400,\"likes_count\":3,\"comments_count\":1,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1669110-Zodiac-Buttons\",\"short_url\":\"http://drbl.in/lToo\",\"views_count\":57,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/547544/screenshots/1669110/buttons.jpg\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/547544/screenshots/1669110/buttons_teaser.jpg\",\"player\":{\"id\":547544,\"name\":\"Marisa\",\"location\":null,\"followers_count\":2,\"draftees_count\":0,\"likes_count\":0,\"likes_received_count\":3,\"comments_count\":0,\"comments_received_count\":1,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/happypenguin44\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/547544/avatars/normal/09d01f74a0ba603ebb0561374afe3fc8.png?1397411313\",\"username\":\"happypenguin44\",\"twitter_screen_name\":null,\"website_url\":\"http://cargocollective.com/marisahsu\",\"drafted_by_player_id\":39,\"shots_count\":1,\"following_count\":1,\"created_at\":\"2014/04/13
+        13:44:25 -0400\"},\"created_at\":\"2014/08/03 20:37:32 -0400\"},{\"id\":1669106,\"title\":\"Moustache
+        Master\",\"description\":\"\\u003Cp\\u003EJust a little something for my first
+        shot here! I would like to thank @[273159:Darko Janevski] for inviting me
+        to this wonderful community. He made my day better than ever! I have wished
+        a long time to be drafted as a player on dribbble and now my wish has come
+        true :)\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":2,\"comments_count\":0,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1669106-Moustache-Master\",\"short_url\":\"http://drbl.in/lTok\",\"views_count\":13,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/528196/screenshots/1669106/moustache_master_shot.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/528196/screenshots/1669106/moustache_master_shot_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/528196/screenshots/1669106/moustache_master_shot_1x.png\",\"player\":{\"id\":528196,\"name\":\"Gjorgji
+        Domazetov\",\"location\":\"Macedonia\",\"followers_count\":4,\"draftees_count\":0,\"likes_count\":19,\"likes_received_count\":8,\"comments_count\":1,\"comments_received_count\":0,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/infinitylabs\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/528196/avatars/normal/d45b1eff3fa1fd050e606d0332639e19.png?1407116860\",\"username\":\"infinitylabs\",\"twitter_screen_name\":\"infinitylabsmk\",\"website_url\":\"http://infinitylabs.me/\",\"drafted_by_player_id\":273159,\"shots_count\":5,\"following_count\":25,\"created_at\":\"2014/03/21
+        17:31:52 -0400\"},\"created_at\":\"2014/08/03 20:31:28 -0400\"},{\"id\":1669104,\"title\":\"\\\"Little
+        events\\\"\",\"description\":\"\\u003Cp\\u003E          Logo design concept
+        for a kids event agency.          \\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":2,\"comments_count\":0,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1669104--Little-events\",\"short_url\":\"http://drbl.in/lToi\",\"views_count\":18,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/601318/screenshots/1669104/c55938053d7ce95937e8ce0c79448605.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/601318/screenshots/1669104/c55938053d7ce95937e8ce0c79448605_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/601318/screenshots/1669104/c55938053d7ce95937e8ce0c79448605_1x.png\",\"player\":{\"id\":601318,\"name\":\"Sasha
+        Turischev\",\"location\":\"Ukraine, Kharkov\",\"followers_count\":3,\"draftees_count\":0,\"likes_count\":6,\"likes_received_count\":2,\"comments_count\":0,\"comments_received_count\":0,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/turischev\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/601318/avatars/normal/7XCAx5EPgZk.jpg?1403553755\",\"username\":\"turischev\",\"twitter_screen_name\":\"turischev\",\"website_url\":\"https://www.behance.net/turischev\",\"drafted_by_player_id\":39,\"shots_count\":1,\"following_count\":7,\"created_at\":\"2014/06/23
+        15:59:15 -0400\"},\"created_at\":\"2014/08/03 20:26:45 -0400\"},{\"id\":1669047,\"title\":\"Pandamonium
+        Doughnuts Logo\",\"description\":\"\\u003Cp\\u003ELogo for a local gourmet
+        doughnut startup \\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":1,\"comments_count\":0,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1669047-Pandamonium-Doughnuts-Logo\",\"short_url\":\"http://drbl.in/lTnd\",\"views_count\":30,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/58657/screenshots/1669047/dribbble_pandamonium-doughnuts-logo.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/58657/screenshots/1669047/dribbble_pandamonium-doughnuts-logo_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/58657/screenshots/1669047/dribbble_pandamonium-doughnuts-logo_1x.png\",\"player\":{\"id\":58657,\"name\":\"Scott
+        Barber\",\"location\":\"Urbana, IL\",\"followers_count\":2,\"draftees_count\":0,\"likes_count\":5,\"likes_received_count\":2,\"comments_count\":3,\"comments_received_count\":0,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/scottmbarber\",\"avatar_url\":\"https://dribbble.com/assets/avatar-default.gif\",\"username\":\"scottmbarber\",\"twitter_screen_name\":null,\"website_url\":\"http://SCOBAR.biz\",\"drafted_by_player_id\":7151,\"shots_count\":2,\"following_count\":16,\"created_at\":\"2011/08/31
+        16:12:12 -0400\"},\"created_at\":\"2014/08/03 18:48:22 -0400\"},{\"id\":1669046,\"title\":\"Be
+        Remembered\",\"description\":\"\\u003Cp\\u003ESpent some time on this wonderful
+        headline for a friend of mine.\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":1,\"comments_count\":0,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1669046-Be-Remembered\",\"short_url\":\"http://drbl.in/lTnc\",\"views_count\":17,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/625042/screenshots/1669046/stetson_bw.jpg\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/625042/screenshots/1669046/stetson_bw_teaser.jpg\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/625042/screenshots/1669046/stetson_bw_1x.jpg\",\"player\":{\"id\":625042,\"name\":\"Toliver
+        Roebuck\",\"location\":\"New York\",\"followers_count\":5,\"draftees_count\":0,\"likes_count\":0,\"likes_received_count\":1,\"comments_count\":0,\"comments_received_count\":0,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/toliver\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/625042/avatars/normal/43b3bd422b6228058b9c2f84d6d43075.jpg?1406926747\",\"username\":\"toliver\",\"twitter_screen_name\":null,\"website_url\":\"http://toliverroebuck.com\",\"drafted_by_player_id\":70694,\"shots_count\":1,\"following_count\":4,\"created_at\":\"2014/08/01
+        16:54:27 -0400\"},\"created_at\":\"2014/08/03 18:45:58 -0400\"},{\"id\":1669039,\"title\":\"MovieBox
+        App Concept\",\"description\":\"\\u003Cp\\u003Emy first completed concept
+        was for my GCSE Photography coursework and I created a movie streaming application
+        from scratch. the final product can be seen at https://www.behance.net/gallery/15807693/MovieBox-App-Concept
+        however i have since then completed the app in its entireity. Further screens
+        will be added to behance once i recieve my files back from examinations.\\u003C/p\\u003E\",\"height\":300,\"width\":400,\"likes_count\":2,\"comments_count\":0,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1669039-MovieBox-App-Concept\",\"short_url\":\"http://drbl.in/lTmV\",\"views_count\":20,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/625237/screenshots/1669039/close-3.jpg\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/625237/screenshots/1669039/close-3_teaser.jpg\",\"player\":{\"id\":625237,\"name\":\"Max
+        Carey\",\"location\":\"Brighton\",\"followers_count\":2,\"draftees_count\":0,\"likes_count\":5,\"likes_received_count\":2,\"comments_count\":0,\"comments_received_count\":0,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/GRZY301\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/625237/avatars/normal/e0e65ff477c7a4fefec4fd1319b76109.jpg?1406971909\",\"username\":\"GRZY301\",\"twitter_screen_name\":\"GRZY301\",\"website_url\":\"https://www.behance.net/GRZY\",\"drafted_by_player_id\":42756,\"shots_count\":1,\"following_count\":1,\"created_at\":\"2014/08/02
+        05:28:54 -0400\"},\"created_at\":\"2014/08/03 18:31:30 -0400\"},{\"id\":1669007,\"title\":\"OR
+        ELSE\",\"description\":\"\\u003Cp\\u003EHello, Dribbble! Thought I'd share
+        a shot of an app I'm working on, would love to hear your feedback. Check out
+        the app and sign up for the closed beta here: http://orelseapp.github.io/\\u003C/p\\u003E\",\"height\":300,\"width\":400,\"likes_count\":5,\"comments_count\":2,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1669007-OR-ELSE\",\"short_url\":\"http://drbl.in/lTmp\",\"views_count\":34,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/160244/screenshots/1669007/orelsedribbble.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/160244/screenshots/1669007/orelsedribbble_teaser.png\",\"player\":{\"id\":160244,\"name\":\"Ammaar
+        Reshi\",\"location\":null,\"followers_count\":1,\"draftees_count\":0,\"likes_count\":1,\"likes_received_count\":5,\"comments_count\":1,\"comments_received_count\":2,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/ammaar\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/160244/avatars/normal/95b0fb9ead661c940a24deae098812f2.jpg?1407098998\",\"username\":\"ammaar\",\"twitter_screen_name\":\"asronline\",\"website_url\":\"http://about.me/asr\",\"drafted_by_player_id\":39,\"shots_count\":1,\"following_count\":1,\"created_at\":\"2012/06/08
+        10:47:37 -0400\"},\"created_at\":\"2014/08/03 17:51:16 -0400\"},{\"id\":1668925,\"title\":\"Super
+        Wood\",\"description\":\"\\u003Cp\\u003EHello world!\\u003C/p\\u003E\\n\\n\\u003Cp\\u003EFirst
+        of all we'd like to thank to @[126278:Themeflame] for invitation. We would
+        like to share our icon designed for ThemeForest's template coming in near
+        future.\\u003C/p\\u003E\\n\\n\\u003Cp\\u003E\\u003Ca href=\\\"https://www.facebook.com/thelumberjackscom\\\"
+        rel=\\\"nofollow\\\"\\u003EFacebook\\u003C/a\\u003E / \\u003Ca href=\\\"https://twitter.com/LumberjacksNews\\\"
+        rel=\\\"nofollow\\\"\\u003ETwitter\\u003C/a\\u003E / \\u003Ca href=\\\"http://themeforest.net/user/Lumberjacks?ref=lumberjacks\\\"
+        rel=\\\"nofollow\\\"\\u003EOur portfolio\\u003C/a\\u003E\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":2,\"comments_count\":1,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668925-Super-Wood\",\"short_url\":\"http://drbl.in/lTkL\",\"views_count\":32,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/625066/screenshots/1668925/dribbble-super-wood.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/625066/screenshots/1668925/dribbble-super-wood_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/625066/screenshots/1668925/dribbble-super-wood_1x.png\",\"player\":{\"id\":625066,\"name\":\"Lumberjacks\",\"location\":\"Europe\",\"followers_count\":3,\"draftees_count\":0,\"likes_count\":1,\"likes_received_count\":2,\"comments_count\":0,\"comments_received_count\":1,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/Lumberjacks\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/625066/avatars/normal/2018856b9ef35e6770eeff944038d74e.png?1406934544\",\"username\":\"Lumberjacks\",\"twitter_screen_name\":\"LumberjacksNews\",\"website_url\":\"http://themeforest.net/user/Lumberjacks?ref=lumberjacks\",\"drafted_by_player_id\":126278,\"shots_count\":1,\"following_count\":7,\"created_at\":\"2014/08/01
+        18:06:00 -0400\"},\"created_at\":\"2014/08/03 15:45:56 -0400\"},{\"id\":1668898,\"title\":\"JJS
+        Designs front page mock-up\",\"description\":\"\\u003Cp\\u003E  Live version
+        - http://www.jjsd.co.uk/  \\u003C/p\\u003E\",\"height\":300,\"width\":400,\"likes_count\":11,\"comments_count\":2,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668898-JJS-Designs-front-page-mock-up\",\"short_url\":\"http://drbl.in/lTkk\",\"views_count\":84,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/624783/screenshots/1668898/bg1.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/624783/screenshots/1668898/bg1_teaser.png\",\"player\":{\"id\":624783,\"name\":\"Joe
+        Sayer\",\"location\":\"London\",\"followers_count\":4,\"draftees_count\":0,\"likes_count\":2,\"likes_received_count\":11,\"comments_count\":1,\"comments_received_count\":2,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/JoeSayer\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/624783/avatars/normal/3855edb54d9804d01cff7a45bba5c25b.jpg?1406890866\",\"username\":\"JoeSayer\",\"twitter_screen_name\":null,\"website_url\":\"http://jjsd.co.uk/\",\"drafted_by_player_id\":42756,\"shots_count\":1,\"following_count\":11,\"created_at\":\"2014/08/01
+        06:56:17 -0400\"},\"created_at\":\"2014/08/03 15:24:38 -0400\"},{\"id\":1668872,\"title\":\"Hello
+        World\",\"description\":\"\\u003Cp\\u003E  My first shot at Dribbble.  \\u003C/p\\u003E\\n\\n\\u003Cp\\u003E
+        \ I usually do interface design. I wanted to try something different for the
+        first shot.  \\u003C/p\\u003E\\n\\n\\u003Cp\\u003E  Thank you for adding as
+        a team member @[16041:Adem ilter]\\n\\u003Cbr /\\u003E  \\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":12,\"comments_count\":2,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668872-Hello-World\",\"short_url\":\"http://drbl.in/lTjK\",\"views_count\":100,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/77494/screenshots/1668872/rocket.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/77494/screenshots/1668872/rocket_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/77494/screenshots/1668872/rocket_1x.png\",\"player\":{\"id\":77494,\"name\":\"ismail
+        k\\u00f6se\",\"location\":\"Istanbul\",\"followers_count\":14,\"draftees_count\":0,\"likes_count\":57,\"likes_received_count\":12,\"comments_count\":0,\"comments_received_count\":2,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/ismailkose\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/77494/avatars/normal/avatars.jpg?1373409506\",\"username\":\"ismailkose\",\"twitter_screen_name\":\"ismailkose_me\",\"website_url\":\"http://www.ismailkose.me\",\"drafted_by_player_id\":539834,\"shots_count\":1,\"following_count\":97,\"created_at\":\"2011/11/22
+        02:44:34 -0500\"},\"created_at\":\"2014/08/03 14:50:20 -0400\"},{\"id\":1668850,\"title\":\"Owl\",\"description\":\"\\u003Cp\\u003EFrom
+        a project for a childrens' bedtime book of menacing animals in the night.\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":3,\"comments_count\":0,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668850-Owl\",\"short_url\":\"http://drbl.in/lTjo\",\"views_count\":18,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/625726/screenshots/1668850/owl.jpg\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/625726/screenshots/1668850/owl_teaser.jpg\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/625726/screenshots/1668850/owl_1x.jpg\",\"player\":{\"id\":625726,\"name\":\"PJ
+        Doland\",\"location\":\"Reston, VA\",\"followers_count\":2,\"draftees_count\":0,\"likes_count\":0,\"likes_received_count\":3,\"comments_count\":0,\"comments_received_count\":0,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/pjdoland\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/625726/avatars/normal/7c9d841beef83a361f96e8ea1e8acfff.jpg?1407088650\",\"username\":\"pjdoland\",\"twitter_screen_name\":\"pjdoland\",\"website_url\":\"http://dancingmammoth.com\",\"drafted_by_player_id\":1817,\"shots_count\":1,\"following_count\":2,\"created_at\":\"2014/08/03
+        13:57:26 -0400\"},\"created_at\":\"2014/08/03 14:02:57 -0400\"},{\"id\":1668813,\"title\":\"Tick\",\"description\":\"\\u003Cp\\u003EThis
+        is \\\"tick\\\", an enemy for our second game. Get an exclusive hero on release
+        by signing up for the beta: http://www.raresloth.com/beta/\\u003C/p\\u003E\\n\\n\\u003Cp\\u003EHappily
+        accepting critiques!\\u003C/p\\u003E\",\"height\":300,\"width\":400,\"likes_count\":5,\"comments_count\":0,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668813-Tick\",\"short_url\":\"http://drbl.in/lTiD\",\"views_count\":34,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/519357/screenshots/1668813/tick_tick.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/519357/screenshots/1668813/tick_tick_teaser.png\",\"player\":{\"id\":519357,\"name\":\"RareSloth\",\"location\":\"the
+        trees\",\"followers_count\":5,\"draftees_count\":0,\"likes_count\":9,\"likes_received_count\":7,\"comments_count\":0,\"comments_received_count\":0,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/RareSloth\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/519357/avatars/normal/be313fbae260f60e5ca76c74d70d6cad.png?1394479953\",\"username\":\"RareSloth\",\"twitter_screen_name\":\"RareSloth\",\"website_url\":\"http://www.raresloth.com\",\"drafted_by_player_id\":11219,\"shots_count\":2,\"following_count\":5,\"created_at\":\"2014/03/10
+        15:32:33 -0400\"},\"created_at\":\"2014/08/03 13:12:56 -0400\"},{\"id\":1668804,\"title\":\"Seattle
+        Sea Lions\",\"description\":\"\\u003Cp\\u003EMy take on a potential NHL seattle
+        expansion team; full project can be seen here: http://bit.ly/1shQO7N\\u003C/p\\u003E\\n\\n\\u003Cp\\u003E-Thanks
+        for lookin'\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":4,\"comments_count\":0,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668804-Seattle-Sea-Lions\",\"short_url\":\"http://drbl.in/lTiu\",\"views_count\":19,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/276239/screenshots/1668804/seattleprep.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/276239/screenshots/1668804/seattleprep_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/276239/screenshots/1668804/seattleprep_1x.png\",\"player\":{\"id\":276239,\"name\":\"Matthew
+        McElroy\",\"location\":\"Los Angeles, CA\",\"followers_count\":4,\"draftees_count\":0,\"likes_count\":0,\"likes_received_count\":4,\"comments_count\":0,\"comments_received_count\":0,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/McElroy19\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/276239/avatars/normal/IMG_1398.JPG?1359938605\",\"username\":\"McElroy19\",\"twitter_screen_name\":null,\"website_url\":\"http://number9concepts.tumblr.com/\",\"drafted_by_player_id\":115350,\"shots_count\":1,\"following_count\":15,\"created_at\":\"2013/02/03
+        19:34:22 -0500\"},\"created_at\":\"2014/08/03 12:59:02 -0400\"},{\"id\":1668759,\"title\":\"Happy
+        me\",\"description\":\"\\u003Cp\\u003EMy first dribbble shot \\u2014 just
+        a happy smiley boy \\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":8,\"comments_count\":0,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1668759-Happy-me\",\"short_url\":\"http://drbl.in/lThB\",\"views_count\":73,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/69242/screenshots/1668759/me.png\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/69242/screenshots/1668759/me_teaser.png\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/69242/screenshots/1668759/me_1x.png\",\"player\":{\"id\":69242,\"name\":\"Pritam
+        Pebam\",\"location\":\"Bangalore\",\"followers_count\":6,\"draftees_count\":0,\"likes_count\":30,\"likes_received_count\":8,\"comments_count\":0,\"comments_received_count\":0,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/ptamzz\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/69242/avatars/original/eightbit-9ed6237c-ac58-4d9f-a832-f047729e2554_normal.png?1318950297\",\"username\":\"ptamzz\",\"twitter_screen_name\":\"ptamzz\",\"website_url\":null,\"drafted_by_player_id\":413726,\"shots_count\":1,\"following_count\":74,\"created_at\":\"2011/10/18
+        11:04:56 -0400\"},\"created_at\":\"2014/08/03 11:46:55 -0400\"}]}"
+    http_version: 
+  recorded_at: Mon, 04 Aug 2014 02:30:48 GMT
+- request:
+    method: get
+    uri: http://api.dribbble.com/shots/1669143
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.dribbble.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 04 Aug 2014 02:30:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 388a72297f26ce16133ec6c6143fc1a1
+      X-Runtime:
+      - '0.036409'
+      X-Rack-Cache:
+      - miss
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: UTF-8
+      string: "{\"id\":1669143,\"title\":\"Logo for hykoo - Text + video = \\u003C3\",\"description\":\"\\u003Cp\\u003EThe
+        logo, tag line and one of the color palette for the branding of 'hykoo' -
+        Hykoo is a social network that brings this time-tested storytelling technique
+        of hykoo into the digital age by combining lines of type over a short video.\\n\\u003Cbr
+        /\\u003EDriven by beautiful design, hykoos are a new form of creative expression
+        and a giant leap forward in the evolution of social video.\\u003C/p\\u003E\\n\\n\\u003Cp\\u003Ehttps://download.hykoo.co\\u003C/p\\u003E\",\"height\":600,\"width\":800,\"likes_count\":3,\"comments_count\":0,\"rebounds_count\":0,\"url\":\"http://dribbble.com/shots/1669143-Logo-for-hykoo-Text-video-3\",\"short_url\":\"http://drbl.in/lToV\",\"views_count\":27,\"rebound_source_id\":null,\"image_url\":\"https://d13yacurqjgara.cloudfront.net/users/120567/screenshots/1669143/logo.gif\",\"image_teaser_url\":\"https://d13yacurqjgara.cloudfront.net/users/120567/screenshots/1669143/logo_teaser.gif\",\"image_400_url\":\"https://d13yacurqjgara.cloudfront.net/users/120567/screenshots/1669143/logo_1x.gif\",\"player\":{\"id\":120567,\"name\":\"assaf
+        dagan\",\"location\":\"New York\",\"followers_count\":4,\"draftees_count\":0,\"likes_count\":23,\"likes_received_count\":3,\"comments_count\":0,\"comments_received_count\":0,\"rebounds_count\":0,\"rebounds_received_count\":0,\"url\":\"http://dribbble.com/assafdagan\",\"avatar_url\":\"https://d13yacurqjgara.cloudfront.net/users/120567/avatars/normal/assa.jpg?1393025788\",\"username\":\"assafdagan\",\"twitter_screen_name\":\"assafdagan\",\"website_url\":\"http://assafdagan.com\",\"drafted_by_player_id\":36950,\"shots_count\":1,\"following_count\":39,\"created_at\":\"2012/03/23
+        13:02:47 -0400\"},\"created_at\":\"2014/08/03 21:28:18 -0400\"}"
+    http_version: 
+  recorded_at: Mon, 04 Aug 2014 02:30:48 GMT
+recorded_with: VCR 2.5.0
